@@ -28,6 +28,7 @@ a { color: inherit; text-decoration: none; }
 .brand-mark { font: 1.75rem "Playfair Display", serif; color: #b98545; transform: rotate(-15deg); }
 nav { display: flex; align-items: center; gap: clamp(.8rem, 2vw, 2rem); font-size: .9rem; }
 nav > a:not(.button) { color: var(--muted); }
+.mobile-memories { display: none; }
 .button {
   display: inline-flex; align-items: center; justify-content: center; gap: .65rem; padding: .85rem 1.25rem;
   background: var(--ink); color: #fff; border: 1px solid var(--ink); border-radius: 999px; font-weight: 600; transition: transform .2s, background .2s;
@@ -79,7 +80,9 @@ footer .brand { color: #fff; }
 
 @media (max-width: 760px) {
   .site-header { min-height: 70px; }
-  nav > a:not(.button) { display: none; }
+  .site-header nav { display: none; }
+  .mobile-memories { display: inline-flex; align-items: center; gap: .35rem; padding: .48rem .75rem; border: 1px solid var(--ink); border-radius: 999px; color: var(--ink); font-size: .8rem; font-weight: 700; white-space: nowrap; }
+  .mobile-memories:active { transform: scale(.97); }
   .hero { grid-template-columns: 1fr; }
   .hero-copy { min-height: 500px; padding: 4.5rem 0; }
   .hero-art { min-height: 325px; margin: 0 calc(-1 * clamp(1.5rem, 6vw, 7rem)); }
