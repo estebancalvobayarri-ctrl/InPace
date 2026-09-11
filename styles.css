@@ -96,25 +96,111 @@ footer .brand { color: #fff; }
 }
 .memory-examples {
   grid-column: 1 / -1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 24px;
+  width: 100%;
+  margin-top: 12px;
+  padding-top: 42px;
+  border-top: 1px solid rgba(38, 65, 62, 0.2);
 }
 
-.memory-example-link {
-  display: inline-flex;
+.memory-examples-label {
+  margin: 0 0 22px;
+  color: #a9793d;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+}
+
+.memory-examples-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.memory-example-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  padding: 12px 18px;
-  border: 1px solid currentColor;
-  color: inherit;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
+  gap: 18px;
+  min-height: 128px;
+  padding: 24px 26px;
+  border: 1px solid rgba(38, 65, 62, 0.28);
+  background: rgba(255, 255, 255, 0.2);
+  color: #26413e;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: opacity 0.2s ease, background-color 0.2s ease;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
 }
 
-.memory-example-link:hover {
+.memory-example-card:hover,
+.memory-example-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: #26413e;
+  background: #26413e;
+  color: #f4f0e6;
+  outline: none;
+}
+
+.memory-example-number {
+  align-self: start;
+  color: #a9793d;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.memory-example-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.memory-example-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1;
+}
+
+.memory-example-subtitle {
+  max-width: 25ch;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
   opacity: 0.75;
+}
+
+.memory-example-arrow {
+  align-self: end;
+  font-size: 1.7rem;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.memory-example-card:hover .memory-example-arrow,
+.memory-example-card:focus-visible .memory-example-arrow {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 720px) {
+  .memory-examples {
+    margin-top: 0;
+    padding-top: 30px;
+  }
+
+  .memory-examples-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .memory-example-card {
+    min-height: 108px;
+    padding: 20px;
+  }
+
+  .memory-example-title {
+    font-size: 1.55rem;
+  }
 }
