@@ -24,8 +24,8 @@ a { color: inherit; text-decoration: none; }
   min-height: 80px; display: flex; align-items: center; justify-content: space-between;
   border-bottom: 1px solid var(--line);
 }
-.brand { display: inline-flex; align-items: center; gap: .45rem; font: 600 1.35rem "Playfair Display", serif; letter-spacing: -.04em; }
-.brand-mark { font: 1.75rem "Playfair Display", serif; color: #b98545; transform: rotate(-15deg); }
+.brand { display: inline-flex; align-items: center; gap: .45rem; font: 600 1.55rem "Playfair Display", serif; letter-spacing: -.04em; }
+.brand-mark { font: 2.01rem "Playfair Display", serif; color: #b98545; transform: rotate(-15deg); }
 nav { display: flex; align-items: center; gap: clamp(.8rem, 2vw, 2rem); font-size: .9rem; }
 nav > a:not(.button) { color: var(--muted); }
 .mobile-memories { display: none; }
@@ -80,6 +80,8 @@ footer .brand { color: #fff; }
 
 @media (max-width: 760px) {
   .site-header { min-height: 70px; }
+  .site-header .brand { font-size: 1.35rem; }
+  .site-header .brand-mark { font-size: 1.75rem; }
   .site-header nav { display: none; }
   .mobile-memories { display: inline-flex; align-items: center; gap: .35rem; padding: .48rem .75rem; border: 1px solid var(--ink); border-radius: 999px; color: var(--ink); font-size: .8rem; font-weight: 700; white-space: nowrap; }
   .mobile-memories:active { transform: scale(.97); }
