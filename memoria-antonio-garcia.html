@@ -1,143 +1,154 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Memoria homenaje a Antonio García, 1983–2026">
-  <title>Antonio García · InPace</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="memoria-antonio-garcia.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Homenaje a Antonio García (1983–2026)." />
+  <title>Antonio García · 1983–2026 | InPace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="memoria-antonio-garcia.css" />
 </head>
 <body>
-  <div class="progress" aria-hidden="true"><span></span></div>
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Volver a InPace">In<span>Pace</span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menú</button>
-    <nav id="site-nav" aria-label="Navegación de la memoria">
+  <header class="topbar">
+    <a class="brand" href="index.html"><span>∞</span> InPace</a>
+    <button class="menu-button" type="button" aria-label="Abrir navegación" aria-expanded="false">☰</button>
+    <nav id="nav">
       <a href="#historia">Su historia</a>
-      <a href="#momentos">Momentos</a>
       <a href="#galeria">Galería</a>
-      <a href="#legado">Su legado</a>
+      <a href="#condolencias">Condolencias</a>
+      <a href="#familia">Familia</a>
+      <a class="back" href="index.html">← Volver a InPace</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Una vida que sigue inspirando</p>
-        <h1>Antonio<br><em>García</em></h1>
-        <p class="years">1983 — 2026</p>
-        <p class="intro">Esposo, padre, compañero y amigo. Una presencia cercana que dejó huella en cada familia, equipo y lugar de trabajo que compartió.</p>
-        <a class="button" href="#historia">Recorrer su historia <span aria-hidden="true">↓</span></a>
+    <section class="hero">
+      <img class="hero-image" src="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" alt="Antonio con su equipo de fútbol" />
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">EN MEMORIA DE</p>
+        <h1>Antonio<br /><em>García</em></h1>
+        <p class="dates">1983 — 2026</p>
+        <p class="hero-quote">“Su cercanía, su alegría y su forma de estar para los demás siguen viviendo en todos nosotros.”</p>
+        <a class="scroll-link" href="#historia">Conocer su historia <span>↓</span></a>
       </div>
-      <figure class="hero-image reveal">
-        <img src="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" alt="Antonio junto a su equipo de fútbol">
-        <figcaption>Siempre parte del equipo.</figcaption>
-      </figure>
-      <div class="hero-mark" aria-hidden="true">AG</div>
     </section>
 
-    <section class="chapter story" id="historia">
-      <div class="section-heading reveal">
-        <p class="eyebrow">01 · Su historia</p>
-        <h2>La fuerza de estar<br><em>presente.</em></h2>
+    <section class="welcome" id="historia">
+      <p class="eyebrow">UN LEGADO DE COMPAÑERISMO</p>
+      <h2>La vida de Antonio,<br /><em>contada por quienes le quisieron.</em></h2>
+      <p>Antonio García fue esposo, padre, hijo, amigo y compañero. Esta memoria reúne momentos que hablan de una vida vivida con afecto, esfuerzo y una manera generosa de acompañar a su familia, a sus amigos y a cada equipo del que formó parte.</p>
+      <div class="facts">
+        <div><span>43</span><small>Años de vida</small></div>
+        <div><span>2</span><small>Hijos, el mayor de sus orgullos</small></div>
+        <div><span>∞</span><small>Recuerdos compartidos</small></div>
       </div>
-      <div class="story-grid">
-        <div class="story-text reveal">
-          <p>Antonio vivió con una forma muy suya de entender la vida: con cercanía, lealtad y ganas de compartir. Quienes lo conocieron recuerdan a un hombre que cuidaba de los suyos y que hacía sentir acompañado a quien tenía cerca.</p>
-          <p>Fue un marido entregado, un padre ilusionado y una persona muy querida por su familia. También fue ese compañero en el que se podía confiar, dentro y fuera del trabajo; alguien capaz de unir al grupo con una palabra amable, una sonrisa o un gesto oportuno.</p>
-          <p>Su amor por el deporte hablaba de su carácter: esfuerzo, constancia, compañerismo y alegría por cada reto compartido.</p>
+    </section>
+
+    <section class="timeline-section">
+      <div class="section-title">
+        <p class="eyebrow">LÍNEA DEL TIEMPO</p>
+        <h2>Momentos que<br /><em>dibujaron su camino.</em></h2>
+      </div>
+      <ol class="timeline">
+        <li><time>1983</time><div><h3>Un comienzo lleno de energía</h3><p>Antonio nace rodeado del cariño de su familia. Desde pequeño mostró una curiosidad enorme, una sonrisa fácil y ganas de compartir cada aventura.</p></div></li>
+        <li><time>1991</time><div><h3>El fútbol y los primeros amigos</h3><p>Descubre en el deporte un lugar para crecer, esforzarse y sentirse parte de un equipo. Los entrenamientos se convierten en recuerdos que le acompañarían siempre.</p></div></li>
+        <li><time>1999</time><div><h3>Una forma de estar para los demás</h3><p>En la adolescencia ya destacaba por su lealtad. Era el amigo que escuchaba, animaba y encontraba la manera de unir al grupo.</p></div></li>
+        <li><time>2004</time><div><h3>El inicio de su vida profesional</h3><p>Comienza un camino de trabajo marcado por la responsabilidad, la cercanía y el respeto de las personas que compartieron jornada con él.</p></div></li>
+        <li><time>2008</time><div><h3>El encuentro que cambió su vida</h3><p>Conoce a la persona con quien construiría un proyecto de vida basado en la confianza, la complicidad y el cariño cotidiano.</p></div></li>
+        <li><time>2012</time><div><h3>Una boda para recordar</h3><p>Antonio celebra su matrimonio rodeado de familiares y amigos. Fue un día de alegría y el comienzo de una etapa compartida para siempre.</p></div></li>
+        <li><time>2015</time><div><h3>La felicidad de ser padre</h3><p>La llegada de su hija le regaló una nueva manera de mirar la vida: con ilusión, paciencia y un amor inmenso por su familia.</p></div></li>
+        <li><time>2018</time><div><h3>El reto de la maratón</h3><p>La preparación y la carrera reflejaron su constancia. Antonio disfrutaba de cada objetivo alcanzado y de la motivación de compartirlo con los suyos.</p></div></li>
+        <li><time>2021</time><div><h3>Un logro profesional compartido</h3><p>Su esfuerzo y calidad humana se hicieron visibles en el trabajo. Para sus compañeros, Antonio fue apoyo, confianza y buen ambiente.</p></div></li>
+        <li><time>2023</time><div><h3>Enseñar con el ejemplo</h3><p>Compartió deporte, tiempo y aprendizaje con su hijo. En cada entrenamiento transmitía valores de respeto, superación y compañerismo.</p></div></li>
+        <li><time>2025</time><div><h3>Celebrar la vida con los suyos</h3><p>Las reuniones con familia y amigos seguían siendo su lugar favorito: conversaciones, risas y la alegría de sentirse acompañado.</p></div></li>
+        <li><time>2026</time><div><h3>Un recuerdo que permanece</h3><p>Antonio deja una huella profunda en todas las personas que le conocieron. Su familia, compañeros y amigos guardan su ejemplo de cariño, esfuerzo y lealtad.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="section-title centered">
+        <p class="eyebrow">ÁLBUM DE RECUERDOS</p>
+        <h2>Instantes que aún<br /><em>nos hacen sonreír.</em></h2>
+      </div>
+      <div class="gallery">
+        <figure class="wide"><img src="images/antonio-garcia/Nin%CC%83o%20de%208%20an%CC%83os%20entrenando%20al%20fu%CC%81tbol%20con%20otros%20nin%CC%83os%20-%20foto%20de%20mo%CC%81vil.jpg" alt="Antonio de niño entrenando al fútbol" /><figcaption>1991 · Los primeros entrenamientos y amistades</figcaption></figure>
+        <figure><img src="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" alt="Antonio con el equipo de fútbol" /><figcaption>2000 · El equipo, siempre una segunda familia</figcaption></figure>
+        <figure><img src="images/antonio-garcia/H04%20-%20Boda.jpg" alt="Boda de Antonio" /><figcaption>2012 · Un sí para toda la vida</figcaption></figure>
+        <figure><img src="images/antonio-garcia/H05%20-%20Nacimiento%20de%20su%20hija.jpg" alt="Antonio con su hija recién nacida" /><figcaption>2015 · Una nueva vida en brazos</figcaption></figure>
+        <figure><img src="images/antonio-garcia/H08%20-%20Logro%20profesional.jpg" alt="Logro profesional de Antonio" /><figcaption>2021 · Trabajo, compromiso y reconocimiento</figcaption></figure>
+        <figure class="tall"><img src="images/antonio-garcia/H06%20-%20Marato%CC%81n.jpg" alt="Antonio participando en una maratón" /><figcaption>2018 · Un reto cumplido kilómetro a kilómetro</figcaption></figure>
+        <figure><img src="images/antonio-garcia/H09%20-%20Entrenando%20con%20su%20hijo.jpg" alt="Antonio entrenando con su hijo" /><figcaption>2023 · Compartir el deporte y el ejemplo</figcaption></figure>
+        <figure><img src="images/antonio-garcia/H10%20-%20Celebracio%CC%81n%20con%20amigos.jpg" alt="Antonio celebrando con amigos" /><figcaption>2025 · Amigos, familia y momentos para celebrar</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="condolences" id="condolencias">
+      <div class="section-title centered light-title">
+        <p class="eyebrow">LIBRO DE CONDOLENCIAS</p>
+        <h2>Palabras que<br /><em>le mantienen cerca.</em></h2>
+        <p>Mensajes homenaje de las personas que compartieron el camino de Antonio.</p>
+      </div>
+      <div class="notes">
+        <article><span>“</span><p>Tu manera de cuidar, de escuchar y de hacer hogar seguirá siendo nuestra guía cada día.</p><footer>Su esposa · Familia</footer></article>
+        <article><span>“</span><p>Papá, gracias por cada entrenamiento, cada abrazo y cada vez que me enseñaste a no rendirme.</p><footer>Su hijo · Familia</footer></article>
+        <article><span>“</span><p>Antonio hacía que el vestuario fuese un lugar mejor. Competía con entrega y convivía con una alegría contagiosa.</p><footer>Compañero de equipo</footer></article>
+        <article><span>“</span><p>Fue de esas personas que no solo trabajan contigo: te ayudan, te acompañan y hacen más fácil cualquier día.</p><footer>Compañera de trabajo</footer></article>
+        <article><span>“</span><p>Con Antonio siempre había tiempo para una conversación, una risa y un plan compartido.</p><footer>Amigo de siempre</footer></article>
+        <article><span>“</span><p>Su familia fue su orgullo y su forma de querer dejó una marca que no se borra.</p><footer>Familiar</footer></article>
+        <article><span>“</span><p>Gracias por enseñarnos que formar parte de un equipo significa estar también cuando las cosas se complican.</p><footer>Entrenador y amigo</footer></article>
+        <article><span>“</span><p>Tu ausencia duele, pero tu recuerdo nos sigue reuniendo y dándonos fuerza.</p><footer>Sus amigos</footer></article>
+      </div>
+    </section>
+
+    <section class="tributes">
+      <div class="section-title">
+        <p class="eyebrow">TRIBUTOS</p>
+        <h2>Un hombre de<br /><em>pequeños grandes gestos.</em></h2>
+      </div>
+      <div class="tribute-grid">
+        <article><div class="icon">✦</div><h3>El compañero que sumaba</h3><p>En el trabajo y en el deporte, Antonio sabía escuchar, ayudar y celebrar los logros de los demás.</p><span>Recuerdo de sus compañeros</span></article>
+        <article><div class="icon">♡</div><h3>Un hogar construido con cariño</h3><p>Su familia recuerda su presencia, su entrega y la seguridad de saber que siempre estaba cerca.</p><span>Recuerdo de su esposa</span></article>
+        <article><div class="icon">⚽</div><h3>El equipo como familia</h3><p>Vivía el fútbol con pasión, respeto y amistad. Cada partido era una oportunidad para compartir.</p><span>Recuerdo de sus amigos de equipo</span></article>
+        <article><div class="icon">↗</div><h3>La constancia de seguir</h3><p>La maratón representa su capacidad para esforzarse, avanzar y disfrutar de cada meta alcanzada.</p><span>Recuerdo de su familia</span></article>
+        <article><div class="icon">∞</div><h3>Padre de momentos sencillos</h3><p>Los entrenamientos, los juegos y el tiempo compartido siguen siendo una parte viva de su legado.</p><span>Recuerdo de sus hijos</span></article>
+        <article><div class="icon">☼</div><h3>Una alegría que reunía</h3><p>Sus amigos recuerdan las conversaciones, las celebraciones y la facilidad con que hacía sentir bien a todos.</p><span>Recuerdo de sus amistades</span></article>
+      </div>
+    </section>
+
+    <section class="family-section" id="familia">
+      <div class="section-title centered">
+        <p class="eyebrow">ÁRBOL GENEALÓGICO</p>
+        <h2>Raíces profundas,<br /><em>ramas que continúan.</em></h2>
+        <p>Un árbol familiar de ejemplo, editable para incorporar los nombres reales de la familia.</p>
+      </div>
+      <div class="tree-wrap" role="img" aria-label="Árbol genealógico de ejemplo de Antonio García">
+        <div class="generation gen-top">
+          <div class="person muted">Bisabuelos<br /><b>Familia García</b></div><div class="person muted">Bisabuelos<br /><b>Familia Martínez</b></div>
         </div>
-        <aside class="quote-card reveal">
-          <span aria-hidden="true">“</span>
-          <p>Lo importante nunca fue llegar solo, sino compartir el camino.</p>
-          <small>El recuerdo de Antonio</small>
-        </aside>
+        <div class="generation">
+          <div class="person muted">Abuelos maternos<br /><b>Familia de Antonio</b></div><div class="person muted">Abuelos paternos<br /><b>Familia de Antonio</b></div>
+        </div>
+        <div class="generation">
+          <div class="person parent">Padres<br /><b>Familia García</b></div>
+        </div>
+        <div class="generation focus"><div class="person antonio"><small>1983 — 2026</small><b>Antonio García</b><span>∞</span></div><div class="person spouse"><small>Esposa</small><b>Su compañera de vida</b></div></div>
+        <div class="generation"><div class="person child"><small>Hija</small><b>Su hija</b></div><div class="person child"><small>Hijo</small><b>Su hijo</b></div></div>
+        <div class="generation"><div class="person grandchild"><small>Futuro</small><b>Su legado continúa</b></div></div>
       </div>
+      <p class="tree-note">Los nombres y vínculos no indicados son de ejemplo y pueden personalizarse con la información de la familia.</p>
     </section>
 
-    <section class="chapter moments" id="momentos">
-      <div class="section-heading reveal">
-        <p class="eyebrow">02 · Momentos que permanecen</p>
-        <h2>Una vida llena de<br><em>vínculos.</em></h2>
-      </div>
-      <div class="timeline">
-        <article class="moment reveal">
-          <div class="moment-number">01</div>
-          <div class="moment-content"><p class="moment-label">Los primeros pasos</p><h3>El niño que encontró en el fútbol una forma de pertenecer.</h3><p>Desde pequeño, el juego, el esfuerzo y los amigos fueron parte de su camino. El campo fue un lugar de aprendizaje y de ilusión compartida.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/Nin%CC%83o%20de%208%20an%CC%83os%20entrenando%20al%20fu%CC%81tbol%20con%20otros%20nin%CC%83os%20-%20foto%20de%20mo%CC%81vil.jpg" data-alt="Antonio de niño entrenando al fútbol"><img src="images/antonio-garcia/Nin%CC%83o%20de%208%20an%CC%83os%20entrenando%20al%20fu%CC%81tbol%20con%20otros%20nin%CC%83os%20-%20foto%20de%20mo%CC%81vil.jpg" alt="Antonio de niño entrenando al fútbol"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">02</div>
-          <div class="moment-content"><p class="moment-label">Compañeros de equipo</p><h3>Amistades nacidas de la confianza, la entrega y el respeto.</h3><p>Antonio era muy querido por sus compañeros. En cada equipo dejó el recuerdo de alguien generoso, comprometido y siempre dispuesto a sumar.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" data-alt="Antonio con su equipo de fútbol"><img src="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" alt="Antonio con su equipo de fútbol"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">03</div>
-          <div class="moment-content"><p class="moment-label">Una vida compartida</p><h3>El amor, el compromiso y el comienzo de una familia.</h3><p>Su matrimonio representó un proyecto de vida construido con cariño, complicidad y la voluntad de caminar juntos en cada etapa.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H04%20-%20Boda.jpg" data-alt="Boda de Antonio"><img src="images/antonio-garcia/H04%20-%20Boda.jpg" alt="Boda de Antonio"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">04</div>
-          <div class="moment-content"><p class="moment-label">Ser padre</p><h3>Una alegría inmensa: la llegada de su hija.</h3><p>La paternidad hizo aún más grande su manera de querer. En su familia encontró uno de los sentidos más profundos y felices de su vida.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H05%20-%20Nacimiento%20de%20su%20hija.jpg" data-alt="Antonio con su hija recién nacida"><img src="images/antonio-garcia/H05%20-%20Nacimiento%20de%20su%20hija.jpg" alt="Antonio con su hija recién nacida"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">05</div>
-          <div class="moment-content"><p class="moment-label">Superarse</p><h3>Cada kilómetro, una muestra de constancia y valentía.</h3><p>La maratón fue uno de esos retos que resumían bien su forma de ser: perseverar, disfrutar del esfuerzo y celebrar el camino recorrido.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H06%20-%20Marato%CC%81n.jpg" data-alt="Antonio participando en una maratón"><img src="images/antonio-garcia/H06%20-%20Marato%CC%81n.jpg" alt="Antonio participando en una maratón"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">06</div>
-          <div class="moment-content"><p class="moment-label">Profesional y compañero</p><h3>Un trabajador valorado por su calidad humana.</h3><p>En su vida profesional, Antonio fue mucho más que un compañero: fue apoyo, confianza y buen ambiente. Su recuerdo permanece entre quienes tuvieron la suerte de compartir jornada con él.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H08%20-%20Logro%20profesional.jpg" data-alt="Antonio celebrando un logro profesional"><img src="images/antonio-garcia/H08%20-%20Logro%20profesional.jpg" alt="Antonio celebrando un logro profesional"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">07</div>
-          <div class="moment-content"><p class="moment-label">Enseñar con el ejemplo</p><h3>Tiempo, juego y aprendizaje junto a su hijo.</h3><p>En cada entrenamiento compartido quedaba una lección sencilla y poderosa: disfrutar, esforzarse y estar presentes unos para otros.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H09%20-%20Entrenando%20con%20su%20hijo.jpg" data-alt="Antonio entrenando con su hijo"><img src="images/antonio-garcia/H09%20-%20Entrenando%20con%20su%20hijo.jpg" alt="Antonio entrenando con su hijo"></button>
-        </article>
-        <article class="moment reveal">
-          <div class="moment-number">08</div>
-          <div class="moment-content"><p class="moment-label">Celebrar juntos</p><h3>Amigos y familia: el lugar al que siempre volvía.</h3><p>Antonio hizo de cada reunión una oportunidad para compartir. Su alegría y su manera de estar siguen vivas en los recuerdos de quienes le quisieron.</p></div>
-          <button class="photo-button" type="button" data-image="images/antonio-garcia/H10%20-%20Celebracio%CC%81n%20con%20amigos.jpg" data-alt="Antonio celebrando con amigos"><img src="images/antonio-garcia/H10%20-%20Celebracio%CC%81n%20con%20amigos.jpg" alt="Antonio celebrando con amigos"></button>
-        </article>
-      </div>
-    </section>
-
-    <section class="chapter gallery" id="galeria">
-      <div class="section-heading reveal"><p class="eyebrow">03 · Imágenes que hablan</p><h2>Su sonrisa sigue<br><em>aquí.</em></h2></div>
-      <div class="gallery-grid">
-        <button class="gallery-item gallery-large reveal" type="button" data-image="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" data-alt="Antonio con su equipo de fútbol"><img src="images/antonio-garcia/H02%20-%20Foto%20con%20el%20equipo%20de%20fu%CC%81tbol.jpg" alt="Antonio con su equipo de fútbol"><span>El equipo</span></button>
-        <button class="gallery-item reveal" type="button" data-image="images/antonio-garcia/H04%20-%20Boda.jpg" data-alt="Boda de Antonio"><img src="images/antonio-garcia/H04%20-%20Boda.jpg" alt="Boda de Antonio"><span>El amor</span></button>
-        <button class="gallery-item reveal" type="button" data-image="images/antonio-garcia/H06%20-%20Marato%CC%81n.jpg" data-alt="Antonio en una maratón"><img src="images/antonio-garcia/H06%20-%20Marato%CC%81n.jpg" alt="Antonio en una maratón"><span>El reto</span></button>
-        <button class="gallery-item gallery-wide reveal" type="button" data-image="images/antonio-garcia/H10%20-%20Celebracio%CC%81n%20con%20amigos.jpg" data-alt="Antonio celebrando con amigos"><img src="images/antonio-garcia/H10%20-%20Celebracio%CC%81n%20con%20amigos.jpg" alt="Antonio celebrando con amigos"><span>Los amigos</span></button>
-      </div>
-    </section>
-
-    <section class="legacy" id="legado">
-      <div class="legacy-inner reveal">
-        <p class="eyebrow">04 · Su legado</p>
-        <h2>Antonio permanece en todo lo que sembró: en su familia, en sus amigos, en sus compañeros y en cada persona que aprendió de su manera de querer.</h2>
-        <div class="legacy-line"></div>
-        <p>Gracias por los partidos, los retos, las conversaciones, las celebraciones y los momentos compartidos. Tu presencia sigue acompañándonos.</p>
-        <p class="signature">Con todo nuestro cariño.</p>
-      </div>
+    <section class="closing">
+      <p class="eyebrow">EN EL CORAZÓN, SIEMPRE</p>
+      <h2>“Las personas que amamos<br /><em>no se van del todo.”</em></h2>
+      <p>Antonio continúa presente en los recuerdos, los valores y los vínculos que dejó en su familia, sus amigos, sus compañeros y su equipo.</p>
+      <a class="button-light" href="index.html">Volver a InPace</a>
     </section>
   </main>
 
-  <footer>
-    <a class="brand" href="index.html">In<span>Pace</span></a>
-    <p>Memoria creada para recordar una vida que dejó huella.</p>
-    <p>Antonio García · 1983 — 2026</p>
-  </footer>
-
-  <dialog class="lightbox" aria-label="Vista ampliada de fotografía">
-    <button class="lightbox-close" type="button" aria-label="Cerrar fotografía">×</button>
-    <img src="" alt="">
-  </dialog>
   <script src="memoria-antonio-garcia.js"></script>
 </body>
 </html>
